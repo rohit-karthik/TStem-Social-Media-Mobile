@@ -963,7 +963,7 @@
 			{#if !deleting}
 				<div class="flex flex-row ">
 					<div
-						class="w-2/12 fixed left-0 top-0 h-screen text-white overflow-y-auto flex flex-col pt-12"
+						class="w-2/12 fixed left-0 top-0 h-screen text-white overflow-y-auto flex flex-col pt-12 pb-16"
 						id="othersidebar"
 						style="background-color: #39133D; width: 0%; transition: 0.5s;"
 					>

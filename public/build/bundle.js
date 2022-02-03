@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -5514,23 +5514,23 @@ var app = (function () {
     			p1 = element("p");
     			t8 = text(/*errorMsg*/ ctx[19]);
     			attr_dev(p0, "class", "text-5xl m-3");
-    			add_location(p0, file, 1572, 3, 40027);
+    			add_location(p0, file, 1572, 3, 40033);
     			attr_dev(input0, "type", "email");
     			attr_dev(input0, "placeholder", "Your Email: ");
     			attr_dev(input0, "class", "border-2 p-2 m-1 rounded-md");
-    			add_location(input0, file, 1573, 3, 40090);
+    			add_location(input0, file, 1573, 3, 40096);
     			attr_dev(input1, "type", "password");
     			attr_dev(input1, "placeholder", "Your Password:  ");
     			attr_dev(input1, "class", "border-2 p-2 m-1 rounded-md");
-    			add_location(input1, file, 1579, 3, 40217);
+    			add_location(input1, file, 1579, 3, 40223);
     			attr_dev(button0, "class", "bg-emerald-400 shadow-sm shadow-emerald-400 p-2 m-1 rounded-md");
-    			add_location(button0, file, 1585, 3, 40350);
+    			add_location(button0, file, 1585, 3, 40356);
     			attr_dev(button1, "class", "border-2 border-emerald-400 p-2 m-1 rounded-md");
-    			add_location(button1, file, 1593, 3, 40695);
+    			add_location(button1, file, 1593, 3, 40701);
     			set_style(p1, "color", "red");
-    			add_location(p1, file, 1599, 3, 40841);
+    			add_location(p1, file, 1599, 3, 40847);
     			attr_dev(div, "class", "flex flex-col items-center justify-center h-screen");
-    			add_location(div, file, 1571, 2, 39959);
+    			add_location(div, file, 1571, 2, 39965);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5716,9 +5716,9 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Deleting item...";
     			attr_dev(p, "class", "text-5xl text-red-500");
-    			add_location(p, file, 1566, 5, 39863);
+    			add_location(p, file, 1566, 5, 39869);
     			attr_dev(div, "class", "flex justify-center items-center h-screen");
-    			add_location(div, file, 1565, 4, 39802);
+    			add_location(div, file, 1565, 4, 39808);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5831,13 +5831,13 @@ var app = (function () {
     			t15 = space();
     			if (if_block3) if_block3.c();
     			attr_dev(p, "class", "m-2 text-lg");
-    			add_location(p, file, 969, 6, 22392);
-    			add_location(hr, file, 972, 6, 22472);
+    			add_location(p, file, 969, 6, 22398);
+    			add_location(hr, file, 972, 6, 22478);
     			attr_dev(button0, "class", "bg-red-500 text-white p-2 m-1 rounded-md mt-3");
-    			add_location(button0, file, 1015, 6, 23613);
+    			add_location(button0, file, 1015, 6, 23619);
     			attr_dev(button1, "class", "bg-emerald-500 text-white p-2 m-1 rounded-md");
-    			add_location(button1, file, 1021, 6, 23779);
-    			attr_dev(div0, "class", "w-2/12 fixed left-0 top-0 h-screen text-white overflow-y-auto flex flex-col pt-12");
+    			add_location(button1, file, 1021, 6, 23785);
+    			attr_dev(div0, "class", "w-2/12 fixed left-0 top-0 h-screen text-white overflow-y-auto flex flex-col pt-12 pb-16");
     			attr_dev(div0, "id", "othersidebar");
     			set_style(div0, "background-color", "#39133D");
     			set_style(div0, "width", "0%");
@@ -5847,17 +5847,17 @@ var app = (function () {
     			attr_dev(button2, "class", "border-2 border-black p-1 rounded-md");
     			set_style(button2, "right", "0.25rem");
     			set_style(button2, "transition", "0.5s");
-    			add_location(button2, file, 1493, 6, 37720);
+    			add_location(button2, file, 1493, 6, 37726);
     			attr_dev(button3, "class", "p-2 m-1 rounded-md bg-emerald-400 shadow-lg");
-    			add_location(button3, file, 1541, 6, 39185);
+    			add_location(button3, file, 1541, 6, 39191);
     			attr_dev(input, "placeholder", "Name of Channel: ");
     			attr_dev(input, "class", "border-2 p-2 m-1 rounded-md");
-    			add_location(input, file, 1549, 6, 39416);
+    			add_location(input, file, 1549, 6, 39422);
     			attr_dev(div1, "class", "fixed right-0 top-0 flex flex-col h-screen bg-white pt-1");
     			set_style(div1, "width", "0%");
     			set_style(div1, "transition", "0.5s");
     			attr_dev(div1, "id", "sidebar");
-    			add_location(div1, file, 1488, 5, 37569);
+    			add_location(div1, file, 1488, 5, 37575);
     			attr_dev(div2, "class", "flex flex-row ");
     			add_location(div2, file, 963, 4, 22150);
     		},
@@ -6027,7 +6027,7 @@ var app = (function () {
     			t0 = text("# ");
     			t1 = text(t1_value);
     			attr_dev(button, "class", "border-emerald-400 w-full text-left pl-1 py-1");
-    			add_location(button, file, 985, 8, 22833);
+    			add_location(button, file, 985, 8, 22839);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6081,7 +6081,7 @@ var app = (function () {
     			t1 = text(t1_value);
     			attr_dev(button, "class", "w-full text-left pl-1 py-1");
     			set_style(button, "background-color", "#2F629E");
-    			add_location(button, file, 975, 8, 22559);
+    			add_location(button, file, 975, 8, 22565);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6177,7 +6177,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "# Public Chat";
     			attr_dev(button, "class", "w-full text-left pl-1 py-1");
-    			add_location(button, file, 1006, 7, 23394);
+    			add_location(button, file, 1006, 7, 23400);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6218,7 +6218,7 @@ var app = (function () {
     			button.textContent = "# Public Chat";
     			attr_dev(button, "class", "w-full text-left pl-1 py-1");
     			set_style(button, "background-color", "#2F629E");
-    			add_location(button, file, 996, 7, 23129);
+    			add_location(button, file, 996, 7, 23135);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6328,34 +6328,34 @@ var app = (function () {
     			t20 = space();
     			if (if_block) if_block.c();
     			attr_dev(button0, "class", "p-5");
-    			add_location(button0, file, 1388, 7, 34686);
+    			add_location(button0, file, 1388, 7, 34692);
     			attr_dev(p0, "class", "text-2xl font-bold p-2");
-    			add_location(p0, file, 1394, 7, 34819);
-    			add_location(p1, file, 1397, 7, 34898);
+    			add_location(p0, file, 1394, 7, 34825);
+    			add_location(p1, file, 1397, 7, 34904);
     			attr_dev(input0, "type", "file");
     			attr_dev(input0, "id", "newPic");
     			attr_dev(input0, "class", "pl-28 pt-2 text-emerald-500");
     			attr_dev(input0, "accept", "image/*");
-    			add_location(input0, file, 1407, 7, 35182);
+    			add_location(input0, file, 1407, 7, 35188);
     			attr_dev(button1, "class", "p-2 m-1 mt-3 rounded-md bg-red-500 text-white");
-    			add_location(button1, file, 1414, 7, 35352);
+    			add_location(button1, file, 1414, 7, 35358);
     			attr_dev(p2, "class", "pt-5 text-xl");
-    			add_location(p2, file, 1419, 7, 35510);
+    			add_location(p2, file, 1419, 7, 35516);
     			attr_dev(input1, "placeholder", "New Password: ");
     			attr_dev(input1, "type", "password");
     			attr_dev(input1, "class", "border-2 p-2 m-1 rounded-md");
-    			add_location(input1, file, 1420, 7, 35567);
+    			add_location(input1, file, 1420, 7, 35573);
     			attr_dev(button2, "class", "p-2 m-1 rounded-md bg-red-500 text-white");
-    			add_location(button2, file, 1426, 7, 35729);
+    			add_location(button2, file, 1426, 7, 35735);
     			attr_dev(p3, "class", "pt-5 text-xl");
-    			add_location(p3, file, 1436, 7, 36016);
+    			add_location(p3, file, 1436, 7, 36022);
     			attr_dev(input2, "placeholder", "New Name: ");
     			attr_dev(input2, "class", "border-2 p-2 m-1 rounded-md");
-    			add_location(input2, file, 1437, 7, 36074);
+    			add_location(input2, file, 1437, 7, 36080);
     			attr_dev(button3, "class", "p-2 m-1 rounded-md bg-emerald-500");
-    			add_location(button3, file, 1442, 7, 36204);
+    			add_location(button3, file, 1442, 7, 36210);
     			attr_dev(div, "class", "flex flex-col justify-center items-center");
-    			add_location(div, file, 1387, 6, 34623);
+    			add_location(div, file, 1387, 6, 34629);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -6554,43 +6554,43 @@ var app = (function () {
     			attr_dev(button0, "class", "rounded-md fixed top-1 left-1 text-xl");
     			set_style(button0, "right", "0.25rem");
     			set_style(button0, "transition", "0.5s");
-    			add_location(button0, file, 1283, 9, 31717);
+    			add_location(button0, file, 1283, 9, 31723);
     			attr_dev(p0, "class", "pl-5");
-    			add_location(p0, file, 1288, 9, 31901);
+    			add_location(p0, file, 1288, 9, 31907);
     			attr_dev(button1, "id", "switchButton");
     			attr_dev(button1, "class", "border-2 border-black p-1 rounded-md fixed top-1 right-1");
     			set_style(button1, "right", "3rem");
     			set_style(button1, "transition", "0.5s");
-    			add_location(button1, file, 1293, 9, 32033);
+    			add_location(button1, file, 1293, 9, 32039);
     			attr_dev(button2, "id", "infoButton");
     			attr_dev(button2, "class", "border-2 border-black p-1 rounded-md fixed top-1 right-1");
     			set_style(button2, "right", "0.25rem");
     			set_style(button2, "transition", "0.5s");
-    			add_location(button2, file, 1301, 9, 32299);
+    			add_location(button2, file, 1301, 9, 32305);
     			attr_dev(div0, "class", "bg-white w-screen p-2");
-    			add_location(div0, file, 1282, 8, 31672);
+    			add_location(div0, file, 1282, 8, 31678);
     			attr_dev(div1, "class", "fixed top-0");
-    			add_location(div1, file, 1281, 7, 31638);
+    			add_location(div1, file, 1281, 7, 31644);
     			attr_dev(p1, "class", "text-3xl pb-1");
-    			add_location(p1, file, 1310, 8, 32591);
+    			add_location(p1, file, 1310, 8, 32597);
     			attr_dev(p2, "class", "text-3xl pb-1");
-    			add_location(p2, file, 1334, 8, 33204);
+    			add_location(p2, file, 1334, 8, 33210);
     			attr_dev(div2, "class", "pt-8 pb-16 ml-2");
-    			add_location(div2, file, 1309, 7, 32553);
+    			add_location(div2, file, 1309, 7, 32559);
     			set_style(p3, "color", "red");
-    			add_location(p3, file, 1369, 9, 34134);
+    			add_location(p3, file, 1369, 9, 34140);
     			attr_dev(input, "placeholder", "Name of Todo (required): ");
     			attr_dev(input, "class", "border-2 p-2 m-1 rounded-md w-64");
-    			add_location(input, file, 1370, 9, 34181);
+    			add_location(input, file, 1370, 9, 34187);
     			attr_dev(button3, "class", "bg-emerald-400 p-2 m-1 shadow-xl rounded-md");
-    			add_location(button3, file, 1376, 9, 34379);
+    			add_location(button3, file, 1376, 9, 34385);
     			attr_dev(div3, "class", "bg-white w-screen");
-    			add_location(div3, file, 1368, 8, 34093);
+    			add_location(div3, file, 1368, 8, 34099);
     			attr_dev(div4, "class", "fixed bottom-0");
-    			add_location(div4, file, 1367, 7, 34056);
+    			add_location(div4, file, 1367, 7, 34062);
     			attr_dev(div5, "id", "mainContent");
     			set_style(div5, "width", "100%");
-    			add_location(div5, file, 1280, 6, 31588);
+    			add_location(div5, file, 1280, 6, 31594);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div5, anchor);
@@ -6823,62 +6823,62 @@ var app = (function () {
     			attr_dev(button0, "class", "rounded-md fixed top-1 left-1 text-xl");
     			set_style(button0, "right", "0.25rem");
     			set_style(button0, "transition", "0.5s");
-    			add_location(button0, file, 1033, 9, 24147);
+    			add_location(button0, file, 1033, 9, 24153);
     			attr_dev(p0, "class", "pl-5");
-    			add_location(p0, file, 1038, 9, 24331);
+    			add_location(p0, file, 1038, 9, 24337);
     			attr_dev(button1, "id", "switchButton");
     			attr_dev(button1, "class", "border-2 border-black p-1 rounded-md fixed top-1 right-1");
     			set_style(button1, "right", "3rem");
     			set_style(button1, "transition", "0.5s");
-    			add_location(button1, file, 1043, 9, 24463);
+    			add_location(button1, file, 1043, 9, 24469);
     			attr_dev(button2, "id", "infoButton");
     			attr_dev(button2, "class", "border-2 border-black p-1 rounded-md fixed top-1 right-1");
     			set_style(button2, "right", "0.25rem");
     			set_style(button2, "transition", "0.5s");
-    			add_location(button2, file, 1051, 9, 24731);
+    			add_location(button2, file, 1051, 9, 24737);
     			attr_dev(div0, "class", "bg-white w-screen p-2");
-    			add_location(div0, file, 1032, 8, 24102);
+    			add_location(div0, file, 1032, 8, 24108);
     			attr_dev(div1, "class", "fixed top-0");
-    			add_location(div1, file, 1031, 7, 24068);
+    			add_location(div1, file, 1031, 7, 24074);
     			attr_dev(div2, "class", "flex flex-col");
-    			add_location(div2, file, 1063, 8, 25074);
+    			add_location(div2, file, 1063, 8, 25080);
     			attr_dev(div3, "class", "pt-10 flex");
     			set_style(div3, "padding-bottom", "3.2rem");
-    			add_location(div3, file, 1059, 7, 24985);
+    			add_location(div3, file, 1059, 7, 24991);
     			set_style(p1, "color", "red");
-    			add_location(p1, file, 1201, 9, 29395);
+    			add_location(p1, file, 1201, 9, 29401);
     			attr_dev(div4, "class", "bg-white w-screen flex bottom-12");
-    			add_location(div4, file, 1200, 8, 29339);
+    			add_location(div4, file, 1200, 8, 29345);
     			attr_dev(input0, "type", "file");
     			input0.hidden = true;
     			input0.multiple = true;
-    			add_location(input0, file, 1207, 10, 29597);
+    			add_location(input0, file, 1207, 10, 29603);
     			attr_dev(path, "strokelinecap", "round");
     			attr_dev(path, "strokelinejoin", "round");
     			attr_dev(path, "strokewidth", 2);
     			attr_dev(path, "d", "M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z");
-    			add_location(path, file, 1220, 11, 29913);
+    			add_location(path, file, 1220, 11, 29919);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "class", "h-11 w-11");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "stroke", "currentColor");
-    			add_location(svg, file, 1213, 10, 29723);
+    			add_location(svg, file, 1213, 10, 29729);
     			attr_dev(label, "class", "bg-gray-100 h-11 w-11 p-0 self-center rounded-md");
-    			add_location(label, file, 1204, 9, 29502);
+    			add_location(label, file, 1204, 9, 29508);
     			attr_dev(input1, "id", "chatInput");
     			attr_dev(input1, "placeholder", "Text (required): ");
     			attr_dev(input1, "class", "border-2 p-2 m-1 rounded-md w-5/12 resize-none h-11");
-    			add_location(input1, file, 1228, 9, 30150);
+    			add_location(input1, file, 1228, 9, 30156);
     			attr_dev(button3, "class", "bg-emerald-400 p-2 m-1 shadow-xl rounded-md h-11");
-    			add_location(button3, file, 1269, 9, 31316);
+    			add_location(button3, file, 1269, 9, 31322);
     			attr_dev(div5, "class", "bg-white w-screen flex");
-    			add_location(div5, file, 1203, 8, 29456);
+    			add_location(div5, file, 1203, 8, 29462);
     			attr_dev(div6, "class", "fixed bottom-0");
-    			add_location(div6, file, 1171, 7, 28462);
+    			add_location(div6, file, 1171, 7, 28468);
     			attr_dev(div7, "class", "ml-0 w-screen");
     			attr_dev(div7, "id", "mainContent");
-    			add_location(div7, file, 1030, 6, 24016);
+    			add_location(div7, file, 1030, 6, 24022);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div7, anchor);
@@ -7034,7 +7034,7 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = /*profilePic*/ ctx[6])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Default Profile Pic");
     			attr_dev(img, "class", "w-48 h-48 p-2 rounded-3xl hover:opacity-50");
-    			add_location(img, file, 1401, 8, 35022);
+    			add_location(img, file, 1401, 8, 35028);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -7068,7 +7068,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			p.textContent = "Getting photo...";
-    			add_location(p, file, 1399, 8, 34975);
+    			add_location(p, file, 1399, 8, 34981);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -7107,9 +7107,9 @@ var app = (function () {
     			attr_dev(input, "type", "email");
     			attr_dev(input, "placeholder", "New User Email: ");
     			attr_dev(input, "class", "border-2 p-2 m-1 rounded-md");
-    			add_location(input, file, 1473, 8, 37159);
+    			add_location(input, file, 1473, 8, 37165);
     			attr_dev(button, "class", "bg-emerald-400 shadow-sm shadow-emerald-400 p-2 m-1 rounded-md");
-    			add_location(button, file, 1479, 8, 37325);
+    			add_location(button, file, 1479, 8, 37331);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, input, anchor);
@@ -7166,7 +7166,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Delete this todo";
     			attr_dev(button, "class", "ml-3 text-red-500");
-    			add_location(button, file, 1321, 11, 32912);
+    			add_location(button, file, 1321, 11, 32918);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -7228,9 +7228,9 @@ var app = (function () {
     			t3 = space();
     			br = element("br");
     			attr_dev(input, "type", "checkbox");
-    			add_location(input, file, 1313, 10, 32689);
-    			add_location(br, file, 1331, 10, 33155);
-    			add_location(label, file, 1312, 9, 32671);
+    			add_location(input, file, 1313, 10, 32695);
+    			add_location(br, file, 1331, 10, 33161);
+    			add_location(label, file, 1312, 9, 32677);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, label, anchor);
@@ -7299,7 +7299,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Delete this todo";
     			attr_dev(button, "class", "ml-3 text-red-500");
-    			add_location(button, file, 1353, 11, 33751);
+    			add_location(button, file, 1353, 11, 33757);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -7374,11 +7374,11 @@ var app = (function () {
     			attr_dev(input, "type", "checkbox");
     			input.disabled = true;
     			input.checked = true;
-    			add_location(input, file, 1337, 10, 33309);
+    			add_location(input, file, 1337, 10, 33315);
     			attr_dev(button, "class", "ml-3 text-emerald-500");
-    			add_location(button, file, 1346, 10, 33512);
-    			add_location(br, file, 1363, 10, 33994);
-    			add_location(label, file, 1336, 9, 33291);
+    			add_location(button, file, 1346, 10, 33518);
+    			add_location(br, file, 1363, 10, 34000);
+    			add_location(label, file, 1336, 9, 33297);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, label, anchor);
@@ -7450,7 +7450,7 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = /*post*/ ctx[105].profilePicture)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Default Profile Pic");
     			attr_dev(img, "class", "w-8 h-8 rounded-sm self-center");
-    			add_location(img, file, 1083, 12, 25655);
+    			add_location(img, file, 1083, 12, 25661);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -7487,7 +7487,7 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Default Profile Pic");
     			attr_dev(img, "class", "w-8 h-8 rounded-sm self-center");
-    			add_location(img, file, 1077, 12, 25417);
+    			add_location(img, file, 1077, 12, 25423);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -7550,7 +7550,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			add_location(p, file, 1105, 13, 26303);
+    			add_location(p, file, 1105, 13, 26309);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -7653,7 +7653,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			add_location(p, file, 1109, 14, 26436);
+    			add_location(p, file, 1109, 14, 26442);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -7703,18 +7703,18 @@ var app = (function () {
     			attr_dev(path, "stroke-linejoin", "round");
     			attr_dev(path, "stroke-width", "2");
     			attr_dev(path, "d", "M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z");
-    			add_location(path, file, 1131, 18, 27205);
+    			add_location(path, file, 1131, 18, 27211);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "class", "h-6 w-6");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "stroke", "currentColor");
-    			add_location(svg, file, 1124, 17, 26968);
+    			add_location(svg, file, 1124, 17, 26974);
     			attr_dev(a, "href", a_href_value = /*file*/ ctx[108]);
     			attr_dev(a, "download", "");
-    			add_location(a, file, 1138, 17, 27545);
+    			add_location(a, file, 1138, 17, 27551);
     			attr_dev(div, "class", "rounded-md border-2 p-1 m-1 flex border-black max-h-16");
-    			add_location(div, file, 1121, 16, 26848);
+    			add_location(div, file, 1121, 16, 26854);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -7759,7 +7759,7 @@ var app = (function () {
     			attr_dev(img, "class", "max-w-[90%] max-h-[90%]");
     			if (!src_url_equal(img.src, img_src_value = /*file*/ ctx[108])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "File");
-    			add_location(img, file, 1115, 16, 26680);
+    			add_location(img, file, 1115, 16, 26686);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -7853,7 +7853,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Delete";
     			attr_dev(button, "class", "ml-3 text-red-500");
-    			add_location(button, file, 1151, 14, 27982);
+    			add_location(button, file, 1151, 14, 27988);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -7946,17 +7946,17 @@ var app = (function () {
     			if (if_block4) if_block4.c();
     			t6 = space();
     			attr_dev(p0, "class", "font-bold");
-    			add_location(p0, file, 1091, 13, 25902);
+    			add_location(p0, file, 1091, 13, 25908);
     			attr_dev(p1, "class", "mx-2 text-gray-500");
-    			add_location(p1, file, 1096, 13, 26056);
+    			add_location(p1, file, 1096, 13, 26062);
     			attr_dev(div0, "class", "flex");
-    			add_location(div0, file, 1090, 12, 25870);
+    			add_location(div0, file, 1090, 12, 25876);
     			attr_dev(div1, "class", "flex");
-    			add_location(div1, file, 1107, 12, 26359);
+    			add_location(div1, file, 1107, 12, 26365);
     			attr_dev(div2, "class", "pl-3 w-fit");
-    			add_location(div2, file, 1089, 11, 25833);
+    			add_location(div2, file, 1089, 11, 25839);
     			attr_dev(div3, "class", "flex flex-row pl-1");
-    			add_location(div3, file, 1075, 10, 25334);
+    			add_location(div3, file, 1075, 10, 25340);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div3, anchor);
@@ -8093,7 +8093,7 @@ var app = (function () {
     			}
 
     			attr_dev(div, "class", "bg-white w-80 flex flex-col bottom-16 overflow-y-scroll");
-    			add_location(div, file, 1173, 9, 28531);
+    			add_location(div, file, 1173, 9, 28537);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -8162,7 +8162,7 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(button, "id", "eachPerson");
     			attr_dev(button, "class", "hover:bg-gray-200 focus:bg-blue-600 focus:text-white focus:outline-none flex p-1");
-    			add_location(button, file, 1177, 11, 28685);
+    			add_location(button, file, 1177, 11, 28691);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -8240,16 +8240,16 @@ var app = (function () {
     			t6 = space();
     			input = element("input");
     			attr_dev(p, "class", "font-bold text-xl m-1");
-    			add_location(p, file, 1500, 7, 37953);
+    			add_location(p, file, 1500, 7, 37959);
     			attr_dev(button0, "class", "p-2 m-1 rounded-md bg-emerald-400 shadow-lg");
-    			add_location(button0, file, 1518, 8, 38553);
+    			add_location(button0, file, 1518, 8, 38559);
     			attr_dev(button1, "class", "p-2 m-1 rounded-md bg-red-500 shadow-lg");
-    			add_location(button1, file, 1526, 8, 38787);
+    			add_location(button1, file, 1526, 8, 38793);
     			attr_dev(div, "class", "flex");
-    			add_location(div, file, 1517, 7, 38526);
+    			add_location(div, file, 1517, 7, 38532);
     			attr_dev(input, "placeholder", "Email of Person: ");
     			attr_dev(input, "class", "border-2 p-2 m-1 rounded-md");
-    			add_location(input, file, 1535, 7, 39036);
+    			add_location(input, file, 1535, 7, 39042);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -8357,11 +8357,11 @@ var app = (function () {
 
     			attr_dev(img, "alt", "Status");
     			attr_dev(img, "class", "w-3 h-3");
-    			add_location(img, file, 1503, 9, 38088);
+    			add_location(img, file, 1503, 9, 38094);
     			attr_dev(p, "class", "m-1");
-    			add_location(p, file, 1512, 9, 38435);
+    			add_location(p, file, 1512, 9, 38441);
     			attr_dev(div, "class", "flex items-center");
-    			add_location(div, file, 1502, 8, 38047);
+    			add_location(div, file, 1502, 8, 38053);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -8408,7 +8408,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Delete this channel";
     			attr_dev(button, "class", "p-2 m-1 rounded-md bg-red-500 shadow-lg");
-    			add_location(button, file, 1555, 7, 39588);
+    			add_location(button, file, 1555, 7, 39594);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
